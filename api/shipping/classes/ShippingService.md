@@ -7,22 +7,22 @@ Provides methods to handle the logistics of order shipments, including recording
 
 ## Constructors
 
-### new ShippingService()
+### Constructor
 
 ```ts
-new ShippingService(): ShippingService
+new ShippingService(): ShippingService;
 ```
 
 #### Returns
 
-[`ShippingService`](ShippingService.md)
+`ShippingService`
 
 ## Methods
 
 ### getAllShipments()
 
 ```ts
-getAllShipments(): ShippingRecord[]
+getAllShipments(): ShippingRecord[];
 ```
 
 Retrieves all shipping records managed by the service.
@@ -39,7 +39,7 @@ An array of all shipping records.
 ### shipOrder()
 
 ```ts
-shipOrder(shipment): ShippingRecord
+shipOrder(shipment): ShippingRecord;
 ```
 
 Ships an order by creating a shipping record and adding it to the list of shipments.

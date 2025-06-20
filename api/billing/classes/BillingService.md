@@ -7,22 +7,22 @@ Provides functionality to process and retrieve billing transactions.
 
 ## Constructors
 
-### new BillingService()
+### Constructor
 
 ```ts
-new BillingService(): BillingService
+new BillingService(): BillingService;
 ```
 
 #### Returns
 
-[`BillingService`](BillingService.md)
+`BillingService`
 
 ## Methods
 
 ### getAllTransactions()
 
 ```ts
-getAllTransactions(): BillingTransaction[]
+getAllTransactions(): BillingTransaction[];
 ```
 
 Retrieves all the billing transactions that have been processed.
@@ -39,7 +39,7 @@ An array of all billing transactions.
 ### processTransaction()
 
 ```ts
-processTransaction(transaction): BillingTransaction
+processTransaction(transaction): BillingTransaction;
 ```
 
 Processes a billing transaction by adding it to the list of transactions.

@@ -7,22 +7,22 @@ Provides functionality to store and retrieve the history of transactions.
 
 ## Constructors
 
-### new BillingHistoryService()
+### Constructor
 
 ```ts
-new BillingHistoryService(): BillingHistoryService
+new BillingHistoryService(): BillingHistoryService;
 ```
 
 #### Returns
 
-[`BillingHistoryService`](BillingHistoryService.md)
+`BillingHistoryService`
 
 ## Methods
 
 ### addTransactionToHistory()
 
 ```ts
-addTransactionToHistory(transaction): void
+addTransactionToHistory(transaction): void;
 ```
 
 Adds a transaction to the billing history.
@@ -45,7 +45,7 @@ The billing transaction to be added to the history.
 ### getBillingHistory()
 
 ```ts
-getBillingHistory(): BillingTransaction[]
+getBillingHistory(): BillingTransaction[];
 ```
 
 Retrieves the complete billing history, providing access to all transactions that have been recorded.

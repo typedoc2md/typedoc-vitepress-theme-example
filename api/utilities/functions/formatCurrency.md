@@ -3,7 +3,7 @@
 # Function: formatCurrency()
 
 ```ts
-function formatCurrency(amount, currencyCode): string
+function formatCurrency(amount, currencyCode): string;
 ```
 
 Formats a number as currency with a given currency code.

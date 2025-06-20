@@ -7,13 +7,13 @@ Manages and integrates different aspects of customer data and interactions with 
 
 ## Constructors
 
-### new CustomerAccount()
+### Constructor
 
 ```ts
 new CustomerAccount(
    customer, 
    contactInfo, 
-   billingInfo): CustomerAccount
+   billingInfo): CustomerAccount;
 ```
 
 Constructs a new CustomerAccount instance.
@@ -40,14 +40,14 @@ Customer's billing information.
 
 #### Returns
 
-[`CustomerAccount`](CustomerAccount.md)
+`CustomerAccount`
 
 ## Methods
 
 ### addOrderToHistory()
 
 ```ts
-addOrderToHistory(order): void
+addOrderToHistory(order): void;
 ```
 
 Adds a new order to the customer's historical record.
@@ -69,7 +69,7 @@ The order to be added to the history.
 ### getBillingInfo()
 
 ```ts
-getBillingInfo(): CustomerBilling
+getBillingInfo(): CustomerBilling;
 ```
 
 Retrieves the billing information of the customer.
@@ -85,7 +85,7 @@ The billing details.
 ### getContactInfo()
 
 ```ts
-getContactInfo(): CustomerContact
+getContactInfo(): CustomerContact;
 ```
 
 Retrieves the contact information of the customer.
@@ -101,7 +101,7 @@ The contact details.
 ### getCustomer()
 
 ```ts
-getCustomer(): Customer
+getCustomer(): Customer;
 ```
 
 Retrieves the stored customer profile information.
@@ -117,7 +117,7 @@ The customer's profile data.
 ### getOrderHistory()
 
 ```ts
-getOrderHistory(): CustomerOrderHistory[]
+getOrderHistory(): CustomerOrderHistory[];
 ```
 
 Retrieves the full history of orders made by the customer.

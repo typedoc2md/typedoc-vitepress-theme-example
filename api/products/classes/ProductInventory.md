@@ -6,22 +6,22 @@ Class representing a product inventory.
 
 ## Constructors
 
-### new ProductInventory()
+### Constructor
 
 ```ts
-new ProductInventory(): ProductInventory
+new ProductInventory(): ProductInventory;
 ```
 
 #### Returns
 
-[`ProductInventory`](ProductInventory.md)
+`ProductInventory`
 
 ## Methods
 
 ### addProduct()
 
 ```ts
-addProduct(product): ProductDetails
+addProduct(product): ProductDetails;
 ```
 
 Add a new product to the inventory.
@@ -45,7 +45,7 @@ The added product details.
 ### getAllProducts()
 
 ```ts
-getAllProducts(): ProductDetails[]
+getAllProducts(): ProductDetails[];
 ```
 
 Get all products in the inventory.
@@ -61,7 +61,7 @@ An array of all product details.
 ### getProductById()
 
 ```ts
-getProductById(productId): ProductDetails
+getProductById(productId): ProductDetails;
 ```
 
 Get product details by ID.
@@ -85,7 +85,7 @@ The product details with the specified ID.
 ### getProductsByCategory()
 
 ```ts
-getProductsByCategory(category): ProductDetails[]
+getProductsByCategory(category): ProductDetails[];
 ```
 
 Get products by category.
@@ -109,7 +109,7 @@ An array of product details in the specified category.
 ### removeProduct()
 
 ```ts
-removeProduct(productId): ProductDetails
+removeProduct(productId): ProductDetails;
 ```
 
 Remove a product from the inventory.
@@ -133,7 +133,7 @@ The removed product details.
 ### updateProductDetails()
 
 ```ts
-updateProductDetails(productId, updatedDetails): ProductDetails
+updateProductDetails(productId, updatedDetails): ProductDetails;
 ```
 
 Update product details.

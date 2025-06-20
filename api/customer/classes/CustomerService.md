@@ -6,15 +6,15 @@ Service for managing customers.
 
 ## Constructors
 
-### new CustomerService()
+### Constructor
 
 ```ts
-new CustomerService(): CustomerService
+new CustomerService(): CustomerService;
 ```
 
 #### Returns
 
-[`CustomerService`](CustomerService.md)
+`CustomerService`
 
 ## Methods
 
@@ -24,7 +24,7 @@ new CustomerService(): CustomerService
 addCustomer(
    customer, 
    contactInfo, 
-   billingInfo): CustomerAccount
+   billingInfo): CustomerAccount;
 ```
 
 Add a new customer.
@@ -60,7 +60,7 @@ The added customer account.
 ### getAllCustomers()
 
 ```ts
-getAllCustomers(): CustomerAccount[]
+getAllCustomers(): CustomerAccount[];
 ```
 
 Get all customer accounts.
@@ -76,7 +76,7 @@ An array of all customer accounts.
 ### getCustomerById()
 
 ```ts
-getCustomerById(customerId): CustomerAccount
+getCustomerById(customerId): CustomerAccount;
 ```
 
 Get a customer account by ID.

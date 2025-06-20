@@ -3,7 +3,7 @@
 # Function: truncateString()
 
 ```ts
-function truncateString(input, maxLength): string
+function truncateString(input, maxLength): string;
 ```
 
 Function to truncate a string to a specified length.

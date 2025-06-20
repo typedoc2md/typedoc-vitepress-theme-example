@@ -3,7 +3,7 @@
 # Function: toTitleCase()
 
 ```ts
-function toTitleCase(input): string
+function toTitleCase(input): string;
 ```
 
 Function to convert a string to title case.

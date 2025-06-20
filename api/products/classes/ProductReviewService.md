@@ -6,22 +6,22 @@ Service for managing product reviews.
 
 ## Constructors
 
-### new ProductReviewService()
+### Constructor
 
 ```ts
-new ProductReviewService(): ProductReviewService
+new ProductReviewService(): ProductReviewService;
 ```
 
 #### Returns
 
-[`ProductReviewService`](ProductReviewService.md)
+`ProductReviewService`
 
 ## Methods
 
 ### addProductReview()
 
 ```ts
-addProductReview(review): ProductReview
+addProductReview(review): ProductReview;
 ```
 
 Add a new product review.
@@ -45,7 +45,7 @@ The added product review.
 ### getAverageRating()
 
 ```ts
-getAverageRating(productId): number
+getAverageRating(productId): number;
 ```
 
 Get the average rating for a specific product.
@@ -69,7 +69,7 @@ The average rating for the specified product.
 ### getProductReviews()
 
 ```ts
-getProductReviews(productId): ProductReview[]
+getProductReviews(productId): ProductReview[];
 ```
 
 Get all product reviews for a specific product.

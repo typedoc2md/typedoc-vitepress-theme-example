@@ -7,22 +7,22 @@ Provides functionality to generate and retrieve receipts for transactions.
 
 ## Constructors
 
-### new BillingReceiptService()
+### Constructor
 
 ```ts
-new BillingReceiptService(): BillingReceiptService
+new BillingReceiptService(): BillingReceiptService;
 ```
 
 #### Returns
 
-[`BillingReceiptService`](BillingReceiptService.md)
+`BillingReceiptService`
 
 ## Methods
 
 ### generateReceipt()
 
 ```ts
-generateReceipt(transaction): BillingReceipt
+generateReceipt(transaction): BillingReceipt;
 ```
 
 Generates a billing receipt for a transaction and stores it.
@@ -47,7 +47,7 @@ The generated billing receipt.
 ### getAllReceipts()
 
 ```ts
-getAllReceipts(): BillingReceipt[]
+getAllReceipts(): BillingReceipt[];
 ```
 
 Retrieves all the billing receipts that have been generated.

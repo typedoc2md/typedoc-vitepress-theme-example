@@ -3,14 +3,16 @@
 # Function: shuffleArray()
 
 ```ts
-function shuffleArray<T>(array): T[]
+function shuffleArray<T>(array): T[];
 ```
 
 Function to shuffle an array.
 
 ## Type Parameters
 
-• **T**
+### T
+
+`T`
 
 ## Parameters
 

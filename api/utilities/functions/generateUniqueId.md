@@ -3,7 +3,7 @@
 # Function: generateUniqueId()
 
 ```ts
-function generateUniqueId(): string
+function generateUniqueId(): string;
 ```
 
 Converts a string to title case, making the first character of each word uppercase.

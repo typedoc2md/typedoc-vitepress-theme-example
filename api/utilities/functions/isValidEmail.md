@@ -3,7 +3,7 @@
 # Function: isValidEmail()
 
 ```ts
-function isValidEmail(email): boolean
+function isValidEmail(email): boolean;
 ```
 
 Function to check if a value is a valid email address.
